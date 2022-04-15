@@ -1,1 +1,3 @@
-console.log('Jess');
+import App from './components/app';
+const app = new App(document.body);
+app.start();
